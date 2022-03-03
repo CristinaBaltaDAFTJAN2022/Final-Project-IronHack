@@ -1,6 +1,6 @@
 Video Game Sales with Ratings
 
-Member of the group: Cristina Balta
+Student of the project: Cristina Balta
 
 I will work on Data Visualisation project: Video Game Sales with Ratings.
 The task is to analize a data with  video games and to predict what genre of the games it is gone to sell better in Europa from the perspective of the users and critics.
