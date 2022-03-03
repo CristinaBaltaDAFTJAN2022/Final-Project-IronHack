@@ -1,0 +1,55 @@
+Video Game Sales with Ratings
+
+Member of the group: Cristina Balta
+
+I will work on Data Visualisation project: Video Game Sales with Ratings.
+The task is to analize a data with  video games and to predict what genre of the games it is gone to sell better in Europa from the perspective of the users and critics.
+
+Brief description of the dataset:
+
+Source https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings;
+number of rows 16719
+number of columns 16
+number of features?
+
+High-level Planning of the project, e.g:
+
+Day 1 - EDA
+
+Day 2 - Clean the data
+
+Remove typos of duplicate, Correct datatypes 
+
+Day 3 - 6
+
+All data exploration and analysis
+
+To analysis the strong corelation between features and data
+
+I will try to bild a Modelling with Linear Regresion for EU Sales from the perspective of the users and critics.
+
+Split data ...
+
+Ploting
+
+Day 7 - 8 
+
+Ploting
+
+Compare old video games with the new one, the missing value and the critic
+
+Day 9 - Prepare the presentation
+
+Day 10 - Presentation
+
+Useful Resources:
+
+https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings
+
+http://www.vgchartz.com/gamedb/
+
+http://chrisalbon.com/python/beautiful_soup_scrape_table.html
+
+google
+
+wikipedia
