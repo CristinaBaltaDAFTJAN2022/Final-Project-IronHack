@@ -50,6 +50,8 @@ http://www.vgchartz.com/gamedb/
 
 http://chrisalbon.com/python/beautiful_soup_scrape_table.html
 
-google
+https://en.wikipedia.org/wiki/List_of_years_in_games
 
-wikipedia
+Google.com
+
+Motivated by Gregory Smith's web scrape of VGChartz Video Games Sales, this data set simply extends the number of variables with another web scrape from Metacritic.
