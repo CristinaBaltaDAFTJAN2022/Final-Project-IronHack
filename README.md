@@ -3,7 +3,7 @@
 Student of the project: Cristina Balta
 
 I will work on Data Visualisation project: Video Game Sales with Ratings.
-The task is to analize a data with  video games and to predict what genre of the games it is gone to sell better in Europa from the perspective of the users and critics.
+The task is to analize a data with  video games and to predict what genre of the games it is gone to sell better at Global level from the perspective of the users and critics.
 
 Brief description of the dataset:
 
