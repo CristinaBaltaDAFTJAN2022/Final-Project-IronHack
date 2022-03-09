@@ -1,9 +1,9 @@
-Video Game Sales with Ratings
+" Video Game Sales with Ratings "
 
-Member of the group: Cristina Balta
+Student of the project: Cristina Balta
 
 I will work on Data Visualisation project: Video Game Sales with Ratings.
-The task is to analize a data with  video games and to predict what genre of the games it is gone to sell better in Europa from the perspective of the users and critics.
+The task is to analize a data with  video games and to predict what genre of the games it is gone to sell better at Global level from the perspective of the users and critics.
 
 Brief description of the dataset:
 
@@ -50,6 +50,8 @@ http://www.vgchartz.com/gamedb/
 
 http://chrisalbon.com/python/beautiful_soup_scrape_table.html
 
-google
+https://en.wikipedia.org/wiki/List_of_years_in_games
 
-wikipedia
+Google.com
+
+Motivated by Gregory Smith's web scrape of VGChartz Video Games Sales, this data set simply extends the number of variables with another web scrape from Metacritic.
