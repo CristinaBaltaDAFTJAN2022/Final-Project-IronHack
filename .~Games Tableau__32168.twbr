@@ -1,0 +1,3979 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0213.1102                               -->
+<workbook original-version='18.1' source-build='2021.4.4 (20214.22.0213.1102)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' inline='true' name='federated.034padk1bg06s6116zjj0096i2xa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Video_Games_Sales_as_at_22_Dec_2016' name='textscan.1d6juyq0knmhl6116l0en0tsg5em'>
+            <connection class='textscan' directory='/Users/cristina/Documents/GitHub/Final-Project-IronHack' filename='Video_Games_Sales_as_at_22_Dec_2016.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1d6juyq0knmhl6116l0en0tsg5em' name='Video_Games_Sales_as_at_22_Dec_2016.csv' table='[Video_Games_Sales_as_at_22_Dec_2016#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Platform' ordinal='1' />
+            <column datatype='integer' name='Year_of_Release' ordinal='2' />
+            <column datatype='string' name='Genre' ordinal='3' />
+            <column datatype='string' name='Publisher' ordinal='4' />
+            <column datatype='real' name='NA_Sales' ordinal='5' />
+            <column datatype='real' name='EU_Sales' ordinal='6' />
+            <column datatype='real' name='JP_Sales' ordinal='7' />
+            <column datatype='real' name='Other_Sales' ordinal='8' />
+            <column datatype='real' name='Global_Sales' ordinal='9' />
+            <column datatype='integer' name='Critic_Score' ordinal='10' />
+            <column datatype='integer' name='Critic_Count' ordinal='11' />
+            <column datatype='real' name='User_Score' ordinal='12' />
+            <column datatype='integer' name='User_Count' ordinal='13' />
+            <column datatype='string' name='Developer' ordinal='14' />
+            <column datatype='string' name='Rating' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1d6juyq0knmhl6116l0en0tsg5em' name='Video_Games_Sales_as_at_22_Dec_2016.csv' table='[Video_Games_Sales_as_at_22_Dec_2016#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Platform' ordinal='1' />
+            <column datatype='integer' name='Year_of_Release' ordinal='2' />
+            <column datatype='string' name='Genre' ordinal='3' />
+            <column datatype='string' name='Publisher' ordinal='4' />
+            <column datatype='real' name='NA_Sales' ordinal='5' />
+            <column datatype='real' name='EU_Sales' ordinal='6' />
+            <column datatype='real' name='JP_Sales' ordinal='7' />
+            <column datatype='real' name='Other_Sales' ordinal='8' />
+            <column datatype='real' name='Global_Sales' ordinal='9' />
+            <column datatype='integer' name='Critic_Score' ordinal='10' />
+            <column datatype='integer' name='Critic_Count' ordinal='11' />
+            <column datatype='real' name='User_Score' ordinal='12' />
+            <column datatype='integer' name='User_Count' ordinal='13' />
+            <column datatype='string' name='Developer' ordinal='14' />
+            <column datatype='string' name='Rating' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_of_Release</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year_of_Release]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Year_of_Release</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NA_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NA_Sales]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>NA_Sales</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EU_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EU_Sales]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>EU_Sales</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JP_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JP_Sales]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>JP_Sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Sales]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Other_Sales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Global_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Global_Sales]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Global_Sales</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Critic_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Critic_Score]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Critic_Score</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Critic_Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Critic_Count]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Critic_Count</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[User_Score]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>User_Score</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User_Count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[User_Count]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>User_Count</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Developer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Developer]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Developer</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[Video_Games_Sales_as_at_22_Dec_2016.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='critic score 10%' datatype='real' name='[Calculation_2263621773576167424]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Critic_Score]/10' />
+      </column>
+      <column caption='Critic Count' datatype='integer' name='[Critic_Count]' role='measure' type='quantitative' />
+      <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+      <column datatype='real' name='[EU_Sales]' role='measure' semantic-role='' type='quantitative' />
+      <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+      <column caption='Global Sales' datatype='real' default-format='*000' name='[Global_Sales]' role='measure' semantic-role='' type='quantitative' />
+      <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' semantic-role='' type='quantitative' />
+      <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+      <column caption='User Count' datatype='integer' name='[User_Count]' role='measure' type='quantitative' />
+      <column caption='User Score' datatype='real' name='[User_Score]' role='measure' type='quantitative' />
+      <column datatype='date' name='[Year of Release (date)]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='MAKEDATE( [Year_of_Release], 1, 1 )' />
+      </column>
+      <column caption='Year of Release' datatype='integer' name='[Year_of_Release]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Video_Games_Sales_as_at_22_Dec_2016.csv' datatype='table' name='[__tableau_internal_object_id__].[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Score]' derivation='Attribute' name='[attr:Critic_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Genre]' derivation='Attribute' name='[attr:Genre:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Global_Sales]' derivation='Attribute' name='[attr:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2263621773576167424]' derivation='Avg' name='[avg:Calculation_2263621773576167424:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Count]' derivation='Avg' name='[avg:Critic_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Global_Sales]' derivation='Avg' name='[avg:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User_Count]' derivation='Avg' name='[avg:User_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User_Score]' derivation='Avg' name='[avg:User_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Score]' derivation='Count' name='[cnt:Critic_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[EU_Sales]' derivation='Count' name='[cnt:EU_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Genre]' derivation='Count' name='[cnt:Genre:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Global_Sales]' derivation='Count' name='[cnt:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[JP_Sales]' derivation='Count' name='[cnt:JP_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NA_Sales]' derivation='Count' name='[cnt:NA_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Other_Sales]' derivation='Count' name='[cnt:Other_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Score]' derivation='CountD' name='[ctd:Critic_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Count]' derivation='Median' name='[med:Critic_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Score]' derivation='Median' name='[med:Critic_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Global_Sales]' derivation='Median' name='[med:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User_Count]' derivation='Median' name='[med:User_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User_Score]' derivation='Median' name='[med:User_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Global_Sales]' derivation='None' name='[none:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_2263621773576167424]' derivation='Sum' name='[sum:Calculation_2263621773576167424:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Count]' derivation='Sum' name='[sum:Critic_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Critic_Score]' derivation='Sum' name='[sum:Critic_Score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[JP_Sales]' derivation='Sum' name='[sum:JP_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[NA_Sales]' derivation='Sum' name='[sum:NA_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Other_Sales]' derivation='Sum' name='[sum:Other_Sales:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User_Count]' derivation='Sum' name='[sum:User_Count:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[User_Score]' derivation='Sum' name='[sum:User_Score:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Publisher:nk]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;Yumedia&quot;</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>&quot;Zenrin&quot;</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>&quot;Zoo Digital Publishing&quot;</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>&quot;Zoo Games&quot;</bucket>
+            </map>
+            <map to='#2a5783'>
+              <bucket>&quot;Zushi Games&quot;</bucket>
+            </map>
+            <map to='#2b5884'>
+              <bucket>&quot;Yacht Club Games&quot;</bucket>
+            </map>
+            <map to='#2b5884'>
+              <bucket>&quot;Yamasa Entertainment&quot;</bucket>
+            </map>
+            <map to='#2b5884'>
+              <bucket>&quot;Yeti&quot;</bucket>
+            </map>
+            <map to='#2b5884'>
+              <bucket>&quot;Yuke&apos;s&quot;</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>&quot;Xing Entertainment&quot;</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>&quot;Xplosiv&quot;</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>&quot;XS Games&quot;</bucket>
+            </map>
+            <map to='#2c5985'>
+              <bucket>&quot;Xseed Games&quot;</bucket>
+            </map>
+            <map to='#2c5986'>
+              <bucket>&quot;Xicat Interactive&quot;</bucket>
+            </map>
+            <map to='#2d5a86'>
+              <bucket>&quot;Westwood Studios&quot;</bucket>
+            </map>
+            <map to='#2d5a86'>
+              <bucket>&quot;White Park Bay Software&quot;</bucket>
+            </map>
+            <map to='#2d5a86'>
+              <bucket>&quot;Wizard Video Games&quot;</bucket>
+            </map>
+            <map to='#2d5a87'>
+              <bucket>&quot;WayForward Technologies&quot;</bucket>
+            </map>
+            <map to='#2e5b87'>
+              <bucket>&quot;Wargaming.net&quot;</bucket>
+            </map>
+            <map to='#2e5b87'>
+              <bucket>&quot;Warner Bros. Interactive Entertainment&quot;</bucket>
+            </map>
+            <map to='#2e5b87'>
+              <bucket>&quot;Warp&quot;</bucket>
+            </map>
+            <map to='#2e5b88'>
+              <bucket>&quot;Wanadoo&quot;</bucket>
+            </map>
+            <map to='#2e5b88'>
+              <bucket>&quot;Warashi&quot;</bucket>
+            </map>
+            <map to='#2f5c88'>
+              <bucket>&quot;Visco&quot;</bucket>
+            </map>
+            <map to='#2f5c88'>
+              <bucket>&quot;Vivendi Games&quot;</bucket>
+            </map>
+            <map to='#2f5c89'>
+              <bucket>&quot;Virgin Interactive&quot;</bucket>
+            </map>
+            <map to='#2f5c89'>
+              <bucket>&quot;Virtual Play Games&quot;</bucket>
+            </map>
+            <map to='#305d89'>
+              <bucket>&quot;Views&quot;</bucket>
+            </map>
+            <map to='#305d89'>
+              <bucket>&quot;Vir2L Studios&quot;</bucket>
+            </map>
+            <map to='#305d8a'>
+              <bucket>&quot;Vic Tokai&quot;</bucket>
+            </map>
+            <map to='#305d8a'>
+              <bucket>&quot;Victor Interactive&quot;</bucket>
+            </map>
+            <map to='#305d8a'>
+              <bucket>&quot;Video System&quot;</bucket>
+            </map>
+            <map to='#315e8a'>
+              <bucket>&quot;Vap&quot;</bucket>
+            </map>
+            <map to='#315e8a'>
+              <bucket>&quot;Vatical Entertainment&quot;</bucket>
+            </map>
+            <map to='#315e8b'>
+              <bucket>&quot;Valve&quot;</bucket>
+            </map>
+            <map to='#315e8b'>
+              <bucket>&quot;Valve Software&quot;</bucket>
+            </map>
+            <map to='#325f8b'>
+              <bucket>&quot;Valcon Games&quot;</bucket>
+            </map>
+            <map to='#325f8b'>
+              <bucket>&quot;ValuSoft&quot;</bucket>
+            </map>
+            <map to='#325f8c'>
+              <bucket>&quot;Universal Gamex&quot;</bucket>
+            </map>
+            <map to='#325f8c'>
+              <bucket>&quot;Universal Interactive&quot;</bucket>
+            </map>
+            <map to='#325f8c'>
+              <bucket>&quot;Unknown&quot;</bucket>
+            </map>
+            <map to='#33608c'>
+              <bucket>&quot;Ultravision&quot;</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>&quot;UEP Systems&quot;</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>&quot;UFO Interactive&quot;</bucket>
+            </map>
+            <map to='#33608d'>
+              <bucket>&quot;UIG Entertainment&quot;</bucket>
+            </map>
+            <map to='#34618d'>
+              <bucket>&quot;Ubisoft Annecy&quot;</bucket>
+            </map>
+            <map to='#34618e'>
+              <bucket>&quot;TYO&quot;</bucket>
+            </map>
+            <map to='#34618e'>
+              <bucket>&quot;Type-Moon&quot;</bucket>
+            </map>
+            <map to='#34618e'>
+              <bucket>&quot;U.S. Gold&quot;</bucket>
+            </map>
+            <map to='#34618e'>
+              <bucket>&quot;Ubisoft&quot;</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>&quot;Trion Worlds&quot;</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>&quot;Tripwire Interactive&quot;</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>&quot;Tru Blu Entertainment&quot;</bucket>
+            </map>
+            <map to='#35628f'>
+              <bucket>&quot;Tryfirst&quot;</bucket>
+            </map>
+            <map to='#366390'>
+              <bucket>&quot;Tomy Corporation&quot;</bucket>
+            </map>
+            <map to='#366390'>
+              <bucket>&quot;TopWare Interactive&quot;</bucket>
+            </map>
+            <map to='#366390'>
+              <bucket>&quot;Touchstone&quot;</bucket>
+            </map>
+            <map to='#366390'>
+              <bucket>&quot;Tradewest&quot;</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>&quot;Time Warner Interactive&quot;</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>&quot;Titus&quot;</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>&quot;Tivola&quot;</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>&quot;TOHO&quot;</bucket>
+            </map>
+            <map to='#376491'>
+              <bucket>&quot;Tommo&quot;</bucket>
+            </map>
+            <map to='#376592'>
+              <bucket>&quot;Tigervision&quot;</bucket>
+            </map>
+            <map to='#386592'>
+              <bucket>&quot;The Adventure Company&quot;</bucket>
+            </map>
+            <map to='#386592'>
+              <bucket>&quot;The Learning Company&quot;</bucket>
+            </map>
+            <map to='#386592'>
+              <bucket>&quot;THQ&quot;</bucket>
+            </map>
+            <map to='#386593'>
+              <bucket>&quot;TGL&quot;</bucket>
+            </map>
+            <map to='#386693'>
+              <bucket>&quot;Tetris Online&quot;</bucket>
+            </map>
+            <map to='#396693'>
+              <bucket>&quot;Telegames&quot;</bucket>
+            </map>
+            <map to='#396693'>
+              <bucket>&quot;Telltale Games&quot;</bucket>
+            </map>
+            <map to='#396693'>
+              <bucket>&quot;Telstar&quot;</bucket>
+            </map>
+            <map to='#396694'>
+              <bucket>&quot;Tecmo Koei&quot;</bucket>
+            </map>
+            <map to='#396794'>
+              <bucket>&quot;TechnoSoft&quot;</bucket>
+            </map>
+            <map to='#3a6794'>
+              <bucket>&quot;Team17 Software&quot;</bucket>
+            </map>
+            <map to='#3a6794'>
+              <bucket>&quot;Technos Japan Corporation&quot;</bucket>
+            </map>
+            <map to='#3a6795'>
+              <bucket>&quot;TDK Core&quot;</bucket>
+            </map>
+            <map to='#3a6795'>
+              <bucket>&quot;TDK Mediactive&quot;</bucket>
+            </map>
+            <map to='#3a6895'>
+              <bucket>&quot;Takuyo&quot;</bucket>
+            </map>
+            <map to='#3a6895'>
+              <bucket>&quot;TalonSoft&quot;</bucket>
+            </map>
+            <map to='#3b6895'>
+              <bucket>&quot;Take-Two Interactive&quot;</bucket>
+            </map>
+            <map to='#3b6896'>
+              <bucket>&quot;Takara&quot;</bucket>
+            </map>
+            <map to='#3b6896'>
+              <bucket>&quot;Takara Tomy&quot;</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>&quot;T&amp;E Soft&quot;</bucket>
+            </map>
+            <map to='#3b6996'>
+              <bucket>&quot;Taito&quot;</bucket>
+            </map>
+            <map to='#3c6997'>
+              <bucket>&quot;System 3 Arcade Software&quot;</bucket>
+            </map>
+            <map to='#3c6997'>
+              <bucket>&quot;System Soft&quot;</bucket>
+            </map>
+            <map to='#3c6a97'>
+              <bucket>&quot;Swing! Entertainment&quot;</bucket>
+            </map>
+            <map to='#3c6a97'>
+              <bucket>&quot;Syscom&quot;</bucket>
+            </map>
+            <map to='#3c6a97'>
+              <bucket>&quot;System 3&quot;</bucket>
+            </map>
+            <map to='#3d6a98'>
+              <bucket>&quot;Sunsoft&quot;</bucket>
+            </map>
+            <map to='#3d6a98'>
+              <bucket>&quot;Sweets&quot;</bucket>
+            </map>
+            <map to='#3d6b98'>
+              <bucket>&quot;Sunflowers&quot;</bucket>
+            </map>
+            <map to='#3d6b98'>
+              <bucket>&quot;Sunrise Interactive&quot;</bucket>
+            </map>
+            <map to='#3d6b99'>
+              <bucket>&quot;Summitsoft&quot;</bucket>
+            </map>
+            <map to='#3e6b99'>
+              <bucket>&quot;Strategy First&quot;</bucket>
+            </map>
+            <map to='#3e6b99'>
+              <bucket>&quot;Success&quot;</bucket>
+            </map>
+            <map to='#3e6c99'>
+              <bucket>&quot;Sting&quot;</bucket>
+            </map>
+            <map to='#3e6c99'>
+              <bucket>&quot;Storm City Games&quot;</bucket>
+            </map>
+            <map to='#3e6c9a'>
+              <bucket>&quot;Starfish&quot;</bucket>
+            </map>
+            <map to='#3e6c9a'>
+              <bucket>&quot;Starpath Corp.&quot;</bucket>
+            </map>
+            <map to='#3f6c9a'>
+              <bucket>&quot;Stainless Games&quot;</bucket>
+            </map>
+            <map to='#3f6d9a'>
+              <bucket>&quot;SSI&quot;</bucket>
+            </map>
+            <map to='#3f6d9b'>
+              <bucket>&quot;Square EA&quot;</bucket>
+            </map>
+            <map to='#3f6d9b'>
+              <bucket>&quot;Square Enix&quot;</bucket>
+            </map>
+            <map to='#3f6d9b'>
+              <bucket>&quot;SquareSoft&quot;</bucket>
+            </map>
+            <map to='#406d9b'>
+              <bucket>&quot;Square&quot;</bucket>
+            </map>
+            <map to='#406e9b'>
+              <bucket>&quot;SPS&quot;</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>&quot;Sony Online Entertainment&quot;</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>&quot;SouthPeak Games&quot;</bucket>
+            </map>
+            <map to='#406e9c'>
+              <bucket>&quot;Spike&quot;</bucket>
+            </map>
+            <map to='#416e9c'>
+              <bucket>&quot;Sony Music Entertainment&quot;</bucket>
+            </map>
+            <map to='#416f9d'>
+              <bucket>&quot;Sonnet&quot;</bucket>
+            </map>
+            <map to='#416f9d'>
+              <bucket>&quot;Sony Computer Entertainment&quot;</bucket>
+            </map>
+            <map to='#416f9d'>
+              <bucket>&quot;Sony Computer Entertainment America&quot;</bucket>
+            </map>
+            <map to='#416f9d'>
+              <bucket>&quot;Sony Computer Entertainment Europe&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;Slitherine Software&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;SNK&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;SNK Playmore&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;Societa&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;Sold Out&quot;</bucket>
+            </map>
+            <map to='#42719f'>
+              <bucket>&quot;Slightly Mad Studios&quot;</bucket>
+            </map>
+            <map to='#43719f'>
+              <bucket>&quot;Seventh Chord&quot;</bucket>
+            </map>
+            <map to='#43719f'>
+              <bucket>&quot;Shogakukan&quot;</bucket>
+            </map>
+            <map to='#43719f'>
+              <bucket>&quot;Simon &amp; Schuster Interactive&quot;</bucket>
+            </map>
+            <map to='#4372a0'>
+              <bucket>&quot;Sears&quot;</bucket>
+            </map>
+            <map to='#4372a0'>
+              <bucket>&quot;Sega&quot;</bucket>
+            </map>
+            <map to='#4372a0'>
+              <bucket>&quot;Seta Corporation&quot;</bucket>
+            </map>
+            <map to='#4472a0'>
+              <bucket>&quot;Screenlife&quot;</bucket>
+            </map>
+            <map to='#4472a0'>
+              <bucket>&quot;SCS Software&quot;</bucket>
+            </map>
+            <map to='#4473a1'>
+              <bucket>&quot;Sammy Corporation&quot;</bucket>
+            </map>
+            <map to='#4473a1'>
+              <bucket>&quot;Saurus&quot;</bucket>
+            </map>
+            <map to='#4473a1'>
+              <bucket>&quot;Scholastic Inc.&quot;</bucket>
+            </map>
+            <map to='#4473a1'>
+              <bucket>&quot;SCi&quot;</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>&quot;Riverhillsoft&quot;</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>&quot;Rocket Company&quot;</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>&quot;Rondomedia&quot;</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>&quot;RTL&quot;</bucket>
+            </map>
+            <map to='#4574a2'>
+              <bucket>&quot;Russel&quot;</bucket>
+            </map>
+            <map to='#4575a3'>
+              <bucket>&quot;Rising Star Games&quot;</bucket>
+            </map>
+            <map to='#4675a3'>
+              <bucket>&quot;responDESIGN&quot;</bucket>
+            </map>
+            <map to='#4675a3'>
+              <bucket>&quot;Revolution (Japan)&quot;</bucket>
+            </map>
+            <map to='#4675a3'>
+              <bucket>&quot;Revolution Software&quot;</bucket>
+            </map>
+            <map to='#4676a4'>
+              <bucket>&quot;RedOctane&quot;</bucket>
+            </map>
+            <map to='#4676a4'>
+              <bucket>&quot;Reef Entertainment&quot;</bucket>
+            </map>
+            <map to='#4776a4'>
+              <bucket>&quot;Red Flagship&quot;</bucket>
+            </map>
+            <map to='#4776a4'>
+              <bucket>&quot;Red Orb&quot;</bucket>
+            </map>
+            <map to='#4776a4'>
+              <bucket>&quot;Red Storm Entertainment&quot;</bucket>
+            </map>
+            <map to='#4777a5'>
+              <bucket>&quot;Rebellion&quot;</bucket>
+            </map>
+            <map to='#4777a5'>
+              <bucket>&quot;Rebellion Developments&quot;</bucket>
+            </map>
+            <map to='#4777a5'>
+              <bucket>&quot;RED Entertainment&quot;</bucket>
+            </map>
+            <map to='#4877a5'>
+              <bucket>&quot;Rage Software&quot;</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>&quot;Psygnosis&quot;</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>&quot;Quelle&quot;</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>&quot;Quest&quot;</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>&quot;Quinrose&quot;</bucket>
+            </map>
+            <map to='#4878a6'>
+              <bucket>&quot;Quintet&quot;</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>&quot;Pow&quot;</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>&quot;PQube&quot;</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>&quot;Princess Soft&quot;</bucket>
+            </map>
+            <map to='#4979a7'>
+              <bucket>&quot;Prototype&quot;</bucket>
+            </map>
+            <map to='#497aa8'>
+              <bucket>&quot;Popcorn Arcade&quot;</bucket>
+            </map>
+            <map to='#497aa8'>
+              <bucket>&quot;PopTop Software&quot;</bucket>
+            </map>
+            <map to='#4a7aa8'>
+              <bucket>&quot;PM Studios&quot;</bucket>
+            </map>
+            <map to='#4a7aa8'>
+              <bucket>&quot;Pony Canyon&quot;</bucket>
+            </map>
+            <map to='#4a7aa8'>
+              <bucket>&quot;PopCap Games&quot;</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>&quot;Playmore&quot;</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>&quot;PlayV&quot;</bucket>
+            </map>
+            <map to='#4a7ba9'>
+              <bucket>&quot;Plenty&quot;</bucket>
+            </map>
+            <map to='#4b7ba9'>
+              <bucket>&quot;Playmates&quot;</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>&quot;Pinnacle&quot;</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>&quot;Pioneer LDC&quot;</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>&quot;Play It&quot;</bucket>
+            </map>
+            <map to='#4b7caa'>
+              <bucket>&quot;Playlogic Game Factory&quot;</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>&quot;Phantagram&quot;</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>&quot;Phantom EFX&quot;</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>&quot;Phenomedia&quot;</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>&quot;Phoenix Games&quot;</bucket>
+            </map>
+            <map to='#4c7dab'>
+              <bucket>&quot;Piacci&quot;</bucket>
+            </map>
+            <map to='#4d7eab'>
+              <bucket>&quot;Performance Designed Products&quot;</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>&quot;Paradox Development&quot;</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>&quot;Paradox Interactive&quot;</bucket>
+            </map>
+            <map to='#4d7eac'>
+              <bucket>&quot;Parker Bros.&quot;</bucket>
+            </map>
+            <map to='#4e7fac'>
+              <bucket>&quot;Paon&quot;</bucket>
+            </map>
+            <map to='#4e7fac'>
+              <bucket>&quot;Paon Corporation&quot;</bucket>
+            </map>
+            <map to='#4e7fad'>
+              <bucket>&quot;Pack-In-Video&quot;</bucket>
+            </map>
+            <map to='#4e7fad'>
+              <bucket>&quot;Palcom&quot;</bucket>
+            </map>
+            <map to='#4e7fad'>
+              <bucket>&quot;Panther Software&quot;</bucket>
+            </map>
+            <map to='#4f80ad'>
+              <bucket>&quot;Pacific Century Cyber Works&quot;</bucket>
+            </map>
+            <map to='#4f80ad'>
+              <bucket>&quot;Pack In Soft&quot;</bucket>
+            </map>
+            <map to='#4f80ae'>
+              <bucket>&quot;Oxygen Interactive&quot;</bucket>
+            </map>
+            <map to='#4f80ae'>
+              <bucket>&quot;P2 Games&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;On Demand&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;Ongakukan&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;Origin Systems&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;Otomate&quot;</bucket>
+            </map>
+            <map to='#5081af'>
+              <bucket>&quot;Office Create&quot;</bucket>
+            </map>
+            <map to='#5182af'>
+              <bucket>&quot;Number None&quot;</bucket>
+            </map>
+            <map to='#5182af'>
+              <bucket>&quot;O-Games&quot;</bucket>
+            </map>
+            <map to='#5182af'>
+              <bucket>&quot;O3 Entertainment&quot;</bucket>
+            </map>
+            <map to='#5182af'>
+              <bucket>&quot;Ocean&quot;</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>&quot;Nitroplus&quot;</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>&quot;Nobilis&quot;</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>&quot;Nordcurrent&quot;</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>&quot;Nordic Games&quot;</bucket>
+            </map>
+            <map to='#5283b0'>
+              <bucket>&quot;NovaLogic&quot;</bucket>
+            </map>
+            <map to='#5384b1'>
+              <bucket>&quot;Nippon Amuse&quot;</bucket>
+            </map>
+            <map to='#5384b1'>
+              <bucket>&quot;Nippon Columbia&quot;</bucket>
+            </map>
+            <map to='#5384b1'>
+              <bucket>&quot;Nippon Ichi Software&quot;</bucket>
+            </map>
+            <map to='#5384b1'>
+              <bucket>&quot;Nippon Telenet&quot;</bucket>
+            </map>
+            <map to='#5485b1'>
+              <bucket>&quot;Nintendo&quot;</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>&quot;NewKidCo&quot;</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>&quot;Nexon&quot;</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>&quot;Nichibutsu&quot;</bucket>
+            </map>
+            <map to='#5485b2'>
+              <bucket>&quot;Nihon Falcom Corporation&quot;</bucket>
+            </map>
+            <map to='#5586b2'>
+              <bucket>&quot;New&quot;</bucket>
+            </map>
+            <map to='#5586b2'>
+              <bucket>&quot;New World Computing&quot;</bucket>
+            </map>
+            <map to='#5586b3'>
+              <bucket>&quot;Neko Entertainment&quot;</bucket>
+            </map>
+            <map to='#5586b3'>
+              <bucket>&quot;NetRevo&quot;</bucket>
+            </map>
+            <map to='#5687b3'>
+              <bucket>&quot;NDA Productions&quot;</bucket>
+            </map>
+            <map to='#5687b3'>
+              <bucket>&quot;NEC&quot;</bucket>
+            </map>
+            <map to='#5687b3'>
+              <bucket>&quot;NEC Interchannel&quot;</bucket>
+            </map>
+            <map to='#5687b4'>
+              <bucket>&quot;NCS&quot;</bucket>
+            </map>
+            <map to='#5687b4'>
+              <bucket>&quot;NCSoft&quot;</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>&quot;Natsume&quot;</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>&quot;Navarre Corp&quot;</bucket>
+            </map>
+            <map to='#5788b4'>
+              <bucket>&quot;Naxat Soft&quot;</bucket>
+            </map>
+            <map to='#5788b5'>
+              <bucket>&quot;Namco Bandai Games&quot;</bucket>
+            </map>
+            <map to='#5889b5'>
+              <bucket>&quot;Mycom&quot;</bucket>
+            </map>
+            <map to='#5889b5'>
+              <bucket>&quot;Myelin Media&quot;</bucket>
+            </map>
+            <map to='#5889b5'>
+              <bucket>&quot;Mystique&quot;</bucket>
+            </map>
+            <map to='#5889b5'>
+              <bucket>&quot;N/A&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;Moss&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;MTO&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;MTV Games&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;Mud Duck Productions&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;Mumbo Jumbo&quot;</bucket>
+            </map>
+            <map to='#5a8bb6'>
+              <bucket>&quot;Monte Christo Multimedia&quot;</bucket>
+            </map>
+            <map to='#5a8bb7'>
+              <bucket>&quot;mixi, Inc&quot;</bucket>
+            </map>
+            <map to='#5a8bb7'>
+              <bucket>&quot;MLB.com&quot;</bucket>
+            </map>
+            <map to='#5a8bb7'>
+              <bucket>&quot;Mojang&quot;</bucket>
+            </map>
+            <map to='#5b8cb7'>
+              <bucket>&quot;Misawa&quot;</bucket>
+            </map>
+            <map to='#5b8cb7'>
+              <bucket>&quot;Mitsui&quot;</bucket>
+            </map>
+            <map to='#5b8cb8'>
+              <bucket>&quot;Mindscape&quot;</bucket>
+            </map>
+            <map to='#5b8cb8'>
+              <bucket>&quot;Mirai Shounen&quot;</bucket>
+            </map>
+            <map to='#5c8db8'>
+              <bucket>&quot;Milestone S.r.l&quot;</bucket>
+            </map>
+            <map to='#5c8db8'>
+              <bucket>&quot;Milestone S.r.l.&quot;</bucket>
+            </map>
+            <map to='#5c8db8'>
+              <bucket>&quot;Minato Station&quot;</bucket>
+            </map>
+            <map to='#5c8db9'>
+              <bucket>&quot;Milestone&quot;</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>&quot;Microprose&quot;</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>&quot;Microsoft Game Studios&quot;</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>&quot;Midas Interactive Entertainment&quot;</bucket>
+            </map>
+            <map to='#5d8eb9'>
+              <bucket>&quot;Midway Games&quot;</bucket>
+            </map>
+            <map to='#5e8fb9'>
+              <bucket>&quot;Microids&quot;</bucket>
+            </map>
+            <map to='#5e8fba'>
+              <bucket>&quot;Metro 3D&quot;</bucket>
+            </map>
+            <map to='#5e8fba'>
+              <bucket>&quot;Michaelsoft&quot;</bucket>
+            </map>
+            <map to='#5e8fba'>
+              <bucket>&quot;Micro Cabin&quot;</bucket>
+            </map>
+            <map to='#5f90ba'>
+              <bucket>&quot;Mercury Games&quot;</bucket>
+            </map>
+            <map to='#5f90ba'>
+              <bucket>&quot;Merscom LLC&quot;</bucket>
+            </map>
+            <map to='#5f90bb'>
+              <bucket>&quot;Men-A-Vision&quot;</bucket>
+            </map>
+            <map to='#5f90bb'>
+              <bucket>&quot;Mentor Interactive&quot;</bucket>
+            </map>
+            <map to='#6091bb'>
+              <bucket>&quot;Media Rings&quot;</bucket>
+            </map>
+            <map to='#6091bb'>
+              <bucket>&quot;Media Works&quot;</bucket>
+            </map>
+            <map to='#6091bb'>
+              <bucket>&quot;MediaQuest&quot;</bucket>
+            </map>
+            <map to='#6091bc'>
+              <bucket>&quot;Media Entertainment&quot;</bucket>
+            </map>
+            <map to='#6091bc'>
+              <bucket>&quot;Media Factory&quot;</bucket>
+            </map>
+            <map to='#6192bc'>
+              <bucket>&quot;Maximum Family Games&quot;</bucket>
+            </map>
+            <map to='#6192bc'>
+              <bucket>&quot;Maxis&quot;</bucket>
+            </map>
+            <map to='#6192bc'>
+              <bucket>&quot;MC2 Entertainment&quot;</bucket>
+            </map>
+            <map to='#6192bd'>
+              <bucket>&quot;Max Five&quot;</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>&quot;Masque Publishing&quot;</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>&quot;Mastertronic&quot;</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>&quot;Mastiff&quot;</bucket>
+            </map>
+            <map to='#6293bd'>
+              <bucket>&quot;Mattel Interactive&quot;</bucket>
+            </map>
+            <map to='#6394bd'>
+              <bucket>&quot;Marvelous Interactive&quot;</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>&quot;Marvel Entertainment&quot;</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>&quot;Marvelous Entertainment&quot;</bucket>
+            </map>
+            <map to='#6394be'>
+              <bucket>&quot;Marvelous Games&quot;</bucket>
+            </map>
+            <map to='#6495be'>
+              <bucket>&quot;Majesco Entertainment&quot;</bucket>
+            </map>
+            <map to='#6495be'>
+              <bucket>&quot;Mamba Games&quot;</bucket>
+            </map>
+            <map to='#6495bf'>
+              <bucket>&quot;Magical Company&quot;</bucket>
+            </map>
+            <map to='#6495bf'>
+              <bucket>&quot;Magix&quot;</bucket>
+            </map>
+            <map to='#6596bf'>
+              <bucket>&quot;LSP Games&quot;</bucket>
+            </map>
+            <map to='#6596bf'>
+              <bucket>&quot;LucasArts&quot;</bucket>
+            </map>
+            <map to='#6596bf'>
+              <bucket>&quot;Mad Catz&quot;</bucket>
+            </map>
+            <map to='#6596c0'>
+              <bucket>&quot;Locus&quot;</bucket>
+            </map>
+            <map to='#6697c0'>
+              <bucket>&quot;Licensed 4U&quot;</bucket>
+            </map>
+            <map to='#6697c0'>
+              <bucket>&quot;Lighthouse Interactive&quot;</bucket>
+            </map>
+            <map to='#6697c0'>
+              <bucket>&quot;Liquid Games&quot;</bucket>
+            </map>
+            <map to='#6697c0'>
+              <bucket>&quot;Little Orbit&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;Laguna&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;Legacy Interactive&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;LEGO Media&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;Level 5&quot;</bucket>
+            </map>
+            <map to='#6798c1'>
+              <bucket>&quot;Lexicon Entertainment&quot;</bucket>
+            </map>
+            <map to='#6899c1'>
+              <bucket>&quot;KSS&quot;</bucket>
+            </map>
+            <map to='#6899c2'>
+              <bucket>&quot;Kokopeli Digital Studios&quot;</bucket>
+            </map>
+            <map to='#6899c2'>
+              <bucket>&quot;Konami Digital Entertainment&quot;</bucket>
+            </map>
+            <map to='#6899c2'>
+              <bucket>&quot;Kool Kizz&quot;</bucket>
+            </map>
+            <map to='#699ac2'>
+              <bucket>&quot;Knowledge Adventure&quot;</bucket>
+            </map>
+            <map to='#699ac2'>
+              <bucket>&quot;Koch Media&quot;</bucket>
+            </map>
+            <map to='#699ac3'>
+              <bucket>&quot;Kids Station&quot;</bucket>
+            </map>
+            <map to='#699ac3'>
+              <bucket>&quot;King Records&quot;</bucket>
+            </map>
+            <map to='#6a9bc3'>
+              <bucket>&quot;Karin Entertainment&quot;</bucket>
+            </map>
+            <map to='#6a9bc3'>
+              <bucket>&quot;Kemco&quot;</bucket>
+            </map>
+            <map to='#6a9bc3'>
+              <bucket>&quot;KID&quot;</bucket>
+            </map>
+            <map to='#6a9bc4'>
+              <bucket>&quot;Kando Games&quot;</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>&quot;Kadokawa Shoten&quot;</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>&quot;Kaga Create&quot;</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>&quot;Kalypso Media&quot;</bucket>
+            </map>
+            <map to='#6b9cc4'>
+              <bucket>&quot;Kamui&quot;</bucket>
+            </map>
+            <map to='#6c9dc4'>
+              <bucket>&quot;Kadokawa Games&quot;</bucket>
+            </map>
+            <map to='#6c9dc5'>
+              <bucket>&quot;JoWood Productions&quot;</bucket>
+            </map>
+            <map to='#6c9dc5'>
+              <bucket>&quot;Just Flight&quot;</bucket>
+            </map>
+            <map to='#6c9dc5'>
+              <bucket>&quot;JVC&quot;</bucket>
+            </map>
+            <map to='#6d9ec5'>
+              <bucket>&quot;Jester Interactive&quot;</bucket>
+            </map>
+            <map to='#6d9ec5'>
+              <bucket>&quot;Jorudan&quot;</bucket>
+            </map>
+            <map to='#6d9ec6'>
+              <bucket>&quot;Jack of All Games&quot;</bucket>
+            </map>
+            <map to='#6d9ec6'>
+              <bucket>&quot;Jaleco&quot;</bucket>
+            </map>
+            <map to='#6e9fc6'>
+              <bucket>&quot;ITT Family Games&quot;</bucket>
+            </map>
+            <map to='#6e9fc6'>
+              <bucket>&quot;Ivolgamus&quot;</bucket>
+            </map>
+            <map to='#6e9fc6'>
+              <bucket>&quot;iWin&quot;</bucket>
+            </map>
+            <map to='#6e9fc7'>
+              <bucket>&quot;inXile Entertainment&quot;</bucket>
+            </map>
+            <map to='#6e9fc7'>
+              <bucket>&quot;Irem Software Engineering&quot;</bucket>
+            </map>
+            <map to='#6fa0c7'>
+              <bucket>&quot;Interworks Unlimited, Inc.&quot;</bucket>
+            </map>
+            <map to='#6fa0c7'>
+              <bucket>&quot;Inti Creates&quot;</bucket>
+            </map>
+            <map to='#6fa0c7'>
+              <bucket>&quot;Introversion Software&quot;</bucket>
+            </map>
+            <map to='#6fa0c8'>
+              <bucket>&quot;Interplay Productions&quot;</bucket>
+            </map>
+            <map to='#70a1c8'>
+              <bucket>&quot;Insomniac Games&quot;</bucket>
+            </map>
+            <map to='#70a1c8'>
+              <bucket>&quot;Interchannel&quot;</bucket>
+            </map>
+            <map to='#70a1c8'>
+              <bucket>&quot;Interchannel-Holon&quot;</bucket>
+            </map>
+            <map to='#70a1c8'>
+              <bucket>&quot;Interplay&quot;</bucket>
+            </map>
+            <map to='#71a2c8'>
+              <bucket>&quot;Infogrames&quot;</bucket>
+            </map>
+            <map to='#71a2c9'>
+              <bucket>&quot;Imagineer&quot;</bucket>
+            </map>
+            <map to='#71a2c9'>
+              <bucket>&quot;Imax&quot;</bucket>
+            </map>
+            <map to='#71a2c9'>
+              <bucket>&quot;Indie Games&quot;</bucket>
+            </map>
+            <map to='#72a3c9'>
+              <bucket>&quot;Imageworks&quot;</bucket>
+            </map>
+            <map to='#72a3c9'>
+              <bucket>&quot;Imagic&quot;</bucket>
+            </map>
+            <map to='#72a3ca'>
+              <bucket>&quot;Image Epoch&quot;</bucket>
+            </map>
+            <map to='#72a3ca'>
+              <bucket>&quot;imageepoch Inc.&quot;</bucket>
+            </map>
+            <map to='#73a4ca'>
+              <bucket>&quot;Ignition Entertainment&quot;</bucket>
+            </map>
+            <map to='#73a4ca'>
+              <bucket>&quot;Illusion Softworks&quot;</bucket>
+            </map>
+            <map to='#73a4ca'>
+              <bucket>&quot;Imadio&quot;</bucket>
+            </map>
+            <map to='#73a4cb'>
+              <bucket>&quot;IE Institute&quot;</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>&quot;Iceberg Interactive&quot;</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>&quot;id Software&quot;</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>&quot;Idea Factory&quot;</bucket>
+            </map>
+            <map to='#74a5cb'>
+              <bucket>&quot;Idea Factory International&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;Home Entertainment Suppliers&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;Hudson Entertainment&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;Hudson Soft&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;Human Entertainment&quot;</bucket>
+            </map>
+            <map to='#75a6cc'>
+              <bucket>&quot;HuneX&quot;</bucket>
+            </map>
+            <map to='#76a7cc'>
+              <bucket>&quot;HMH Interactive&quot;</bucket>
+            </map>
+            <map to='#76a7cd'>
+              <bucket>&quot;Hello Games&quot;</bucket>
+            </map>
+            <map to='#76a7cd'>
+              <bucket>&quot;Her Interactive&quot;</bucket>
+            </map>
+            <map to='#76a7cd'>
+              <bucket>&quot;Hip Interactive&quot;</bucket>
+            </map>
+            <map to='#77a8cd'>
+              <bucket>&quot;Hearty Robin&quot;</bucket>
+            </map>
+            <map to='#77a8cd'>
+              <bucket>&quot;Hect&quot;</bucket>
+            </map>
+            <map to='#77a8ce'>
+              <bucket>&quot;Havas Interactive&quot;</bucket>
+            </map>
+            <map to='#77a8ce'>
+              <bucket>&quot;Headup Games&quot;</bucket>
+            </map>
+            <map to='#78a8ce'>
+              <bucket>&quot;Hasbro Interactive&quot;</bucket>
+            </map>
+            <map to='#78a9ce'>
+              <bucket>&quot;Happinet&quot;</bucket>
+            </map>
+            <map to='#78a9ce'>
+              <bucket>&quot;Harmonix Music Systems&quot;</bucket>
+            </map>
+            <map to='#78a9cf'>
+              <bucket>&quot;Hamster Corporation&quot;</bucket>
+            </map>
+            <map to='#79a9cf'>
+              <bucket>&quot;HAL Laboratory&quot;</bucket>
+            </map>
+            <map to='#79aacf'>
+              <bucket>&quot;GungHo&quot;</bucket>
+            </map>
+            <map to='#79aacf'>
+              <bucket>&quot;Gust&quot;</bucket>
+            </map>
+            <map to='#79aacf'>
+              <bucket>&quot;Hackberry&quot;</bucket>
+            </map>
+            <map to='#7aaacf'>
+              <bucket>&quot;GT Interactive&quot;</bucket>
+            </map>
+            <map to='#7aaad0'>
+              <bucket>&quot;GSP&quot;</bucket>
+            </map>
+            <map to='#7aabd0'>
+              <bucket>&quot;Griffin International&quot;</bucket>
+            </map>
+            <map to='#7aabd0'>
+              <bucket>&quot;Groove Games&quot;</bucket>
+            </map>
+            <map to='#7babd0'>
+              <bucket>&quot;Graphsim Entertainment&quot;</bucket>
+            </map>
+            <map to='#7babd0'>
+              <bucket>&quot;Gremlin Interactive Ltd&quot;</bucket>
+            </map>
+            <map to='#7bacd1'>
+              <bucket>&quot;Graffiti&quot;</bucket>
+            </map>
+            <map to='#7bacd1'>
+              <bucket>&quot;Grand Prix Games&quot;</bucket>
+            </map>
+            <map to='#7cacd1'>
+              <bucket>&quot;GN Software&quot;</bucket>
+            </map>
+            <map to='#7cacd1'>
+              <bucket>&quot;GOA&quot;</bucket>
+            </map>
+            <map to='#7cacd1'>
+              <bucket>&quot;Gotham Games&quot;</bucket>
+            </map>
+            <map to='#7cadd2'>
+              <bucket>&quot;Global A Entertainment&quot;</bucket>
+            </map>
+            <map to='#7cadd2'>
+              <bucket>&quot;Global Star&quot;</bucket>
+            </map>
+            <map to='#7dadd2'>
+              <bucket>&quot;Giza10&quot;</bucket>
+            </map>
+            <map to='#7dadd2'>
+              <bucket>&quot;Glams&quot;</bucket>
+            </map>
+            <map to='#7daed2'>
+              <bucket>&quot;Giga&quot;</bucket>
+            </map>
+            <map to='#7daed3'>
+              <bucket>&quot;Ghostlight&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;General Entertainment&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;Genki&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;Genterprise&quot;</bucket>
+            </map>
+            <map to='#7eafd3'>
+              <bucket>&quot;Gearbox Software&quot;</bucket>
+            </map>
+            <map to='#7fafd3'>
+              <bucket>&quot;Gathering of Developers&quot;</bucket>
+            </map>
+            <map to='#7fafd4'>
+              <bucket>&quot;Games Workshop&quot;</bucket>
+            </map>
+            <map to='#7fafd4'>
+              <bucket>&quot;GameTek&quot;</bucket>
+            </map>
+            <map to='#7fb0d4'>
+              <bucket>&quot;GameMill Entertainment&quot;</bucket>
+            </map>
+            <map to='#80b0d4'>
+              <bucket>&quot;Gamecock&quot;</bucket>
+            </map>
+            <map to='#80b0d4'>
+              <bucket>&quot;Gameloft&quot;</bucket>
+            </map>
+            <map to='#80b0d5'>
+              <bucket>&quot;Game Life&quot;</bucket>
+            </map>
+            <map to='#80b0d5'>
+              <bucket>&quot;Gamebridge&quot;</bucket>
+            </map>
+            <map to='#81b1d5'>
+              <bucket>&quot;Gakken&quot;</bucket>
+            </map>
+            <map to='#81b1d5'>
+              <bucket>&quot;Game Arts&quot;</bucket>
+            </map>
+            <map to='#81b1d5'>
+              <bucket>&quot;Game Factory&quot;</bucket>
+            </map>
+            <map to='#81b1d6'>
+              <bucket>&quot;Gainax Network Systems&quot;</bucket>
+            </map>
+            <map to='#82b2d6'>
+              <bucket>&quot;FuRyu&quot;</bucket>
+            </map>
+            <map to='#82b2d6'>
+              <bucket>&quot;FuRyu Corporation&quot;</bucket>
+            </map>
+            <map to='#82b2d6'>
+              <bucket>&quot;G.Rev&quot;</bucket>
+            </map>
+            <map to='#82b2d6'>
+              <bucket>&quot;Gaga&quot;</bucket>
+            </map>
+            <map to='#83b3d7'>
+              <bucket>&quot;Funbox Media&quot;</bucket>
+            </map>
+            <map to='#83b3d7'>
+              <bucket>&quot;Funcom&quot;</bucket>
+            </map>
+            <map to='#83b3d7'>
+              <bucket>&quot;FunSoft&quot;</bucket>
+            </map>
+            <map to='#83b3d7'>
+              <bucket>&quot;Funsta&quot;</bucket>
+            </map>
+            <map to='#84b4d7'>
+              <bucket>&quot;From Software&quot;</bucket>
+            </map>
+            <map to='#84b4d7'>
+              <bucket>&quot;Fuji&quot;</bucket>
+            </map>
+            <map to='#84b4d8'>
+              <bucket>&quot;Fox Interactive&quot;</bucket>
+            </map>
+            <map to='#85b4d8'>
+              <bucket>&quot;Fortyfive&quot;</bucket>
+            </map>
+            <map to='#85b5d8'>
+              <bucket>&quot;Focus Multimedia&quot;</bucket>
+            </map>
+            <map to='#85b5d8'>
+              <bucket>&quot;fonfun&quot;</bucket>
+            </map>
+            <map to='#85b5d8'>
+              <bucket>&quot;Foreign Media Games&quot;</bucket>
+            </map>
+            <map to='#86b5d8'>
+              <bucket>&quot;Focus Home Interactive&quot;</bucket>
+            </map>
+            <map to='#86b6d9'>
+              <bucket>&quot;Flashpoint Games&quot;</bucket>
+            </map>
+            <map to='#86b6d9'>
+              <bucket>&quot;Flight-Plan&quot;</bucket>
+            </map>
+            <map to='#87b6d9'>
+              <bucket>&quot;Falcom Corporation&quot;</bucket>
+            </map>
+            <map to='#87b6d9'>
+              <bucket>&quot;Fields&quot;</bucket>
+            </map>
+            <map to='#87b7d9'>
+              <bucket>&quot;Experience Inc.&quot;</bucket>
+            </map>
+            <map to='#87b7d9'>
+              <bucket>&quot;Extreme Entertainment Group&quot;</bucket>
+            </map>
+            <map to='#88b7da'>
+              <bucket>&quot;Evolved Games&quot;</bucket>
+            </map>
+            <map to='#88b7da'>
+              <bucket>&quot;Excalibur Publishing&quot;</bucket>
+            </map>
+            <map to='#88b8da'>
+              <bucket>&quot;Evolution Games&quot;</bucket>
+            </map>
+            <map to='#89b8da'>
+              <bucket>&quot;Ertain&quot;</bucket>
+            </map>
+            <map to='#89b8da'>
+              <bucket>&quot;ESP&quot;</bucket>
+            </map>
+            <map to='#89b8da'>
+              <bucket>&quot;Essential Games&quot;</bucket>
+            </map>
+            <map to='#8ab9db'>
+              <bucket>&quot;Enterbrain&quot;</bucket>
+            </map>
+            <map to='#8ab9db'>
+              <bucket>&quot;EON Digital Entertainment&quot;</bucket>
+            </map>
+            <map to='#8ab9db'>
+              <bucket>&quot;Epic Games&quot;</bucket>
+            </map>
+            <map to='#8ab9db'>
+              <bucket>&quot;Epoch&quot;</bucket>
+            </map>
+            <map to='#8bbadb'>
+              <bucket>&quot;Enjoy Gaming ltd.&quot;</bucket>
+            </map>
+            <map to='#8bbadc'>
+              <bucket>&quot;Encore&quot;</bucket>
+            </map>
+            <map to='#8bbadc'>
+              <bucket>&quot;Enix Corporation&quot;</bucket>
+            </map>
+            <map to='#8cbbdc'>
+              <bucket>&quot;Electronic Arts Victor&quot;</bucket>
+            </map>
+            <map to='#8cbbdc'>
+              <bucket>&quot;Elf&quot;</bucket>
+            </map>
+            <map to='#8cbbdc'>
+              <bucket>&quot;Elite&quot;</bucket>
+            </map>
+            <map to='#8cbbdc'>
+              <bucket>&quot;Empire Interactive&quot;</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>&quot;Edia&quot;</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>&quot;Eidos Interactive&quot;</bucket>
+            </map>
+            <map to='#8dbcdd'>
+              <bucket>&quot;Electronic Arts&quot;</bucket>
+            </map>
+            <map to='#8ebcdd'>
+              <bucket>&quot;Ecole&quot;</bucket>
+            </map>
+            <map to='#8ebddd'>
+              <bucket>&quot;EA Games&quot;</bucket>
+            </map>
+            <map to='#8ebddd'>
+              <bucket>&quot;Easy Interactive&quot;</bucket>
+            </map>
+            <map to='#8fbdde'>
+              <bucket>&quot;DTP Entertainment&quot;</bucket>
+            </map>
+            <map to='#8fbdde'>
+              <bucket>&quot;Dusenberry Martin Racing&quot;</bucket>
+            </map>
+            <map to='#8fbede'>
+              <bucket>&quot;DreamWorks Interactive&quot;</bucket>
+            </map>
+            <map to='#8fbede'>
+              <bucket>&quot;DSI Games&quot;</bucket>
+            </map>
+            <map to='#90bede'>
+              <bucket>&quot;dramatic create&quot;</bucket>
+            </map>
+            <map to='#90bede'>
+              <bucket>&quot;DreamCatcher Interactive&quot;</bucket>
+            </map>
+            <map to='#90bfdf'>
+              <bucket>&quot;Dorart&quot;</bucket>
+            </map>
+            <map to='#91bfdf'>
+              <bucket>&quot;DHM Interactive&quot;</bucket>
+            </map>
+            <map to='#91bfdf'>
+              <bucket>&quot;DigiCube&quot;</bucket>
+            </map>
+            <map to='#91bfdf'>
+              <bucket>&quot;Disney Interactive Studios&quot;</bucket>
+            </map>
+            <map to='#91c0df'>
+              <bucket>&quot;Devolver Digital&quot;</bucket>
+            </map>
+            <map to='#92c0df'>
+              <bucket>&quot;Detn8 Games&quot;</bucket>
+            </map>
+            <map to='#92c0e0'>
+              <bucket>&quot;Destination Software, Inc&quot;</bucket>
+            </map>
+            <map to='#92c0e0'>
+              <bucket>&quot;Destineer&quot;</bucket>
+            </map>
+            <map to='#93c1e0'>
+              <bucket>&quot;Data East&quot;</bucket>
+            </map>
+            <map to='#93c1e0'>
+              <bucket>&quot;Datam Polystar&quot;</bucket>
+            </map>
+            <map to='#93c1e0'>
+              <bucket>&quot;Deep Silver&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;Daedalic Entertainment&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;Daito&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;Data Age&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;Data Design Interactive&quot;</bucket>
+            </map>
+            <map to='#95c2e1'>
+              <bucket>&quot;Daedalic&quot;</bucket>
+            </map>
+            <map to='#95c3e1'>
+              <bucket>&quot;Cygames&quot;</bucket>
+            </map>
+            <map to='#95c3e1'>
+              <bucket>&quot;D3Publisher&quot;</bucket>
+            </map>
+            <map to='#96c3e2'>
+              <bucket>&quot;Culture Publishers&quot;</bucket>
+            </map>
+            <map to='#96c3e2'>
+              <bucket>&quot;CyberFront&quot;</bucket>
+            </map>
+            <map to='#96c4e2'>
+              <bucket>&quot;Culture Brain&quot;</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>&quot;Crystal Dynamics&quot;</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>&quot;Crytek&quot;</bucket>
+            </map>
+            <map to='#97c4e2'>
+              <bucket>&quot;CTO SpA&quot;</bucket>
+            </map>
+            <map to='#98c5e3'>
+              <bucket>&quot;CPG Products&quot;</bucket>
+            </map>
+            <map to='#98c5e3'>
+              <bucket>&quot;Crave Entertainment&quot;</bucket>
+            </map>
+            <map to='#98c5e3'>
+              <bucket>&quot;Creative Core&quot;</bucket>
+            </map>
+            <map to='#98c5e3'>
+              <bucket>&quot;Crimson Cow&quot;</bucket>
+            </map>
+            <map to='#99c6e3'>
+              <bucket>&quot;Compile Heart&quot;</bucket>
+            </map>
+            <map to='#99c6e3'>
+              <bucket>&quot;Conspiracy Entertainment&quot;</bucket>
+            </map>
+            <map to='#99c6e3'>
+              <bucket>&quot;Core Design Ltd.&quot;</bucket>
+            </map>
+            <map to='#9ac6e4'>
+              <bucket>&quot;Compile&quot;</bucket>
+            </map>
+            <map to='#9ac7e4'>
+              <bucket>&quot;Comfort&quot;</bucket>
+            </map>
+            <map to='#9ac7e4'>
+              <bucket>&quot;Commseed&quot;</bucket>
+            </map>
+            <map to='#9bc7e4'>
+              <bucket>&quot;CokeM Interactive&quot;</bucket>
+            </map>
+            <map to='#9bc7e4'>
+              <bucket>&quot;Coleco&quot;</bucket>
+            </map>
+            <map to='#9bc8e4'>
+              <bucket>&quot;Codemasters Online&quot;</bucket>
+            </map>
+            <map to='#9cc8e5'>
+              <bucket>&quot;Cloud Imperium Games Corporation&quot;</bucket>
+            </map>
+            <map to='#9cc8e5'>
+              <bucket>&quot;Coconuts Japan&quot;</bucket>
+            </map>
+            <map to='#9cc8e5'>
+              <bucket>&quot;Codemasters&quot;</bucket>
+            </map>
+            <map to='#9dc9e5'>
+              <bucket>&quot;CCP&quot;</bucket>
+            </map>
+            <map to='#9dc9e5'>
+              <bucket>&quot;CDV Software Entertainment&quot;</bucket>
+            </map>
+            <map to='#9dc9e5'>
+              <bucket>&quot;ChunSoft&quot;</bucket>
+            </map>
+            <map to='#9dc9e5'>
+              <bucket>&quot;City Interactive&quot;</bucket>
+            </map>
+            <map to='#9ec9e6'>
+              <bucket>&quot;CBS Electronics&quot;</bucket>
+            </map>
+            <map to='#9ecae6'>
+              <bucket>&quot;Capcom&quot;</bucket>
+            </map>
+            <map to='#9ecae6'>
+              <bucket>&quot;Cave&quot;</bucket>
+            </map>
+            <map to='#9fcae6'>
+              <bucket>&quot;Broccoli&quot;</bucket>
+            </map>
+            <map to='#9fcae6'>
+              <bucket>&quot;BushiRoad&quot;</bucket>
+            </map>
+            <map to='#9fcbe6'>
+              <bucket>&quot;Brash Entertainment&quot;</bucket>
+            </map>
+            <map to='#a0cbe7'>
+              <bucket>&quot;Bomb&quot;</bucket>
+            </map>
+            <map to='#a0cbe7'>
+              <bucket>&quot;Boost On&quot;</bucket>
+            </map>
+            <map to='#a0cbe7'>
+              <bucket>&quot;BPS&quot;</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>&quot;Blast! Entertainment Ltd&quot;</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>&quot;Blue Byte&quot;</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>&quot;BMG Interactive Entertainment&quot;</bucket>
+            </map>
+            <map to='#a1cce7'>
+              <bucket>&quot;Bohemia Interactive&quot;</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>&quot;bitComposer Games&quot;</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>&quot;Black Bean Games&quot;</bucket>
+            </map>
+            <map to='#a2cde8'>
+              <bucket>&quot;Black Label Games&quot;</bucket>
+            </map>
+            <map to='#a3cde8'>
+              <bucket>&quot;Bigben Interactive&quot;</bucket>
+            </map>
+            <map to='#a3cee8'>
+              <bucket>&quot;Big Ben Interactive&quot;</bucket>
+            </map>
+            <map to='#a3cee8'>
+              <bucket>&quot;Big Fish Games&quot;</bucket>
+            </map>
+            <map to='#a4cee9'>
+              <bucket>&quot;Berkeley&quot;</bucket>
+            </map>
+            <map to='#a4cee9'>
+              <bucket>&quot;Bethesda Softworks&quot;</bucket>
+            </map>
+            <map to='#a4cfe9'>
+              <bucket>&quot;Benesse&quot;</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>&quot;Axela&quot;</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>&quot;BAM! Entertainment&quot;</bucket>
+            </map>
+            <map to='#a5cfe9'>
+              <bucket>&quot;Banpresto&quot;</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>&quot;Atlus&quot;</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>&quot;Avalon Interactive&quot;</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>&quot;Avanquest&quot;</bucket>
+            </map>
+            <map to='#a6d0ea'>
+              <bucket>&quot;Avanquest Software&quot;</bucket>
+            </map>
+            <map to='#a7d0ea'>
+              <bucket>&quot;Athena&quot;</bucket>
+            </map>
+            <map to='#a7d1ea'>
+              <bucket>&quot;Asylum Entertainment&quot;</bucket>
+            </map>
+            <map to='#a7d1ea'>
+              <bucket>&quot;Atari&quot;</bucket>
+            </map>
+            <map to='#a8d1ea'>
+              <bucket>&quot;Aspyr&quot;</bucket>
+            </map>
+            <map to='#a8d1ea'>
+              <bucket>&quot;Astragon&quot;</bucket>
+            </map>
+            <map to='#a8d2eb'>
+              <bucket>&quot;Asmik Corp&quot;</bucket>
+            </map>
+            <map to='#a9d2eb'>
+              <bucket>&quot;Asgard&quot;</bucket>
+            </map>
+            <map to='#a9d2eb'>
+              <bucket>&quot;ASK&quot;</bucket>
+            </map>
+            <map to='#a9d2eb'>
+              <bucket>&quot;Asmik Ace Entertainment&quot;</bucket>
+            </map>
+            <map to='#aad2eb'>
+              <bucket>&quot;ASCII Media Works&quot;</bucket>
+            </map>
+            <map to='#aad3eb'>
+              <bucket>&quot;Ascaron Entertainment GmbH&quot;</bucket>
+            </map>
+            <map to='#aad3eb'>
+              <bucket>&quot;ASCII Entertainment&quot;</bucket>
+            </map>
+            <map to='#abd3eb'>
+              <bucket>&quot;Ascaron Entertainment&quot;</bucket>
+            </map>
+            <map to='#abd3ec'>
+              <bucket>&quot;ASC Games&quot;</bucket>
+            </map>
+            <map to='#abd4ec'>
+              <bucket>&quot;Aruze Corp&quot;</bucket>
+            </map>
+            <map to='#acd4ec'>
+              <bucket>&quot;Aria&quot;</bucket>
+            </map>
+            <map to='#acd4ec'>
+              <bucket>&quot;Arika&quot;</bucket>
+            </map>
+            <map to='#acd4ec'>
+              <bucket>&quot;ArtDink&quot;</bucket>
+            </map>
+            <map to='#add4ec'>
+              <bucket>&quot;Arena Entertainment&quot;</bucket>
+            </map>
+            <map to='#add5ec'>
+              <bucket>&quot;Aques&quot;</bucket>
+            </map>
+            <map to='#add5ec'>
+              <bucket>&quot;Arc System Works&quot;</bucket>
+            </map>
+            <map to='#aed5ed'>
+              <bucket>&quot;AQ Interactive&quot;</bucket>
+            </map>
+            <map to='#aed5ed'>
+              <bucket>&quot;Aqua Plus&quot;</bucket>
+            </map>
+            <map to='#aed6ed'>
+              <bucket>&quot;Answer Software&quot;</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>&quot;Alvion&quot;</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>&quot;American Softworks&quot;</bucket>
+            </map>
+            <map to='#afd6ed'>
+              <bucket>&quot;Angel Studios&quot;</bucket>
+            </map>
+            <map to='#b0d6ed'>
+              <bucket>&quot;Altron&quot;</bucket>
+            </map>
+            <map to='#b0d7ed'>
+              <bucket>&quot;Alchemist&quot;</bucket>
+            </map>
+            <map to='#b0d7ed'>
+              <bucket>&quot;Alternative Software&quot;</bucket>
+            </map>
+            <map to='#b1d7ee'>
+              <bucket>&quot;Aksys Games&quot;</bucket>
+            </map>
+            <map to='#b1d7ee'>
+              <bucket>&quot;Alawar Entertainment&quot;</bucket>
+            </map>
+            <map to='#b1d8ee'>
+              <bucket>&quot;Agetec&quot;</bucket>
+            </map>
+            <map to='#b2d8ee'>
+              <bucket>&quot;Adeline Software&quot;</bucket>
+            </map>
+            <map to='#b2d8ee'>
+              <bucket>&quot;Aerosoft&quot;</bucket>
+            </map>
+            <map to='#b2d8ee'>
+              <bucket>&quot;Agatsuma Entertainment&quot;</bucket>
+            </map>
+            <map to='#b3d8ee'>
+              <bucket>&quot;Activision Value&quot;</bucket>
+            </map>
+            <map to='#b3d9ee'>
+              <bucket>&quot;Activision Blizzard&quot;</bucket>
+            </map>
+            <map to='#b3d9ef'>
+              <bucket>&quot;Activision&quot;</bucket>
+            </map>
+            <map to='#b4d9ef'>
+              <bucket>&quot;Ackkstudios&quot;</bucket>
+            </map>
+            <map to='#b4d9ef'>
+              <bucket>&quot;Acquire&quot;</bucket>
+            </map>
+            <map to='#b4daef'>
+              <bucket>&quot;Accolade&quot;</bucket>
+            </map>
+            <map to='#b5daef'>
+              <bucket>&quot;989 Studios&quot;</bucket>
+            </map>
+            <map to='#b5daef'>
+              <bucket>&quot;Abylight&quot;</bucket>
+            </map>
+            <map to='#b5daef'>
+              <bucket>&quot;Acclaim Entertainment&quot;</bucket>
+            </map>
+            <map to='#b6daef'>
+              <bucket>&quot;989 Sports&quot;</bucket>
+            </map>
+            <map to='#b6dbf0'>
+              <bucket>&quot;49Games&quot;</bucket>
+            </map>
+            <map to='#b6dbf0'>
+              <bucket>&quot;505 Games&quot;</bucket>
+            </map>
+            <map to='#b7dbf0'>
+              <bucket>&quot;10TACLE Studios&quot;</bucket>
+            </map>
+            <map to='#b7dbf0'>
+              <bucket>&quot;20th Century Fox Video Games&quot;</bucket>
+            </map>
+            <map to='#b7dcf0'>
+              <bucket>&quot;7G//AMES&quot;</bucket>
+            </map>
+            <map to='#b8dcf0'>
+              <bucket>&quot;2D Boy&quot;</bucket>
+            </map>
+            <map to='#b8dcf0'>
+              <bucket>&quot;3DO&quot;</bucket>
+            </map>
+            <map to='#b8dcf0'>
+              <bucket>&quot;5pb&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;1C Company&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:Genre:nk]' palette='orange_gold_10_0' type='palette'>
+            <map to='#9e3a26'>
+              <bucket>&quot;Strategy&quot;</bucket>
+            </map>
+            <map to='#ad4023'>
+              <bucket>&quot;Sports&quot;</bucket>
+            </map>
+            <map to='#be4623'>
+              <bucket>&quot;Simulation&quot;</bucket>
+            </map>
+            <map to='#cd4e22'>
+              <bucket>&quot;Shooter&quot;</bucket>
+            </map>
+            <map to='#da5821'>
+              <bucket>&quot;Role-Playing&quot;</bucket>
+            </map>
+            <map to='#e4641e'>
+              <bucket>&quot;Racing&quot;</bucket>
+            </map>
+            <map to='#ef701b'>
+              <bucket>&quot;Puzzle&quot;</bucket>
+            </map>
+            <map to='#f28127'>
+              <bucket>&quot;Platform&quot;</bucket>
+            </map>
+            <map to='#f49135'>
+              <bucket>&quot;Misc&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f6a143'>
+              <bucket>&quot;Fighting&quot;</bucket>
+            </map>
+            <map to='#f7c15d'>
+              <bucket>&quot;Action&quot;</bucket>
+            </map>
+            <map to='#f8b051'>
+              <bucket>&quot;Adventure&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[__tableau_internal_object_id__].[cnt:Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:User_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:EU_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:EU_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:User_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Other_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Other_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:NA_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:NA_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:User_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:User_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[attr:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:JP_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Calculation_2263621773576167424:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:JP_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[attr:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:Calculation_2263621773576167424:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[med:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[none:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Critic_Count:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Global_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[attr:Genre:nk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Genre:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Genre:nk]' palette='orange_gold_10_0' type='palette'>
+            <map to='#9e3a26'>
+              <bucket>&quot;Strategy&quot;</bucket>
+            </map>
+            <map to='#ad4023'>
+              <bucket>&quot;Sports&quot;</bucket>
+            </map>
+            <map to='#be4623'>
+              <bucket>&quot;Simulation&quot;</bucket>
+            </map>
+            <map to='#cd4e22'>
+              <bucket>&quot;Shooter&quot;</bucket>
+            </map>
+            <map to='#da5821'>
+              <bucket>&quot;Role-Playing&quot;</bucket>
+            </map>
+            <map to='#e4641e'>
+              <bucket>&quot;Racing&quot;</bucket>
+            </map>
+            <map to='#ef701b'>
+              <bucket>&quot;Puzzle&quot;</bucket>
+            </map>
+            <map to='#f28127'>
+              <bucket>&quot;Platform&quot;</bucket>
+            </map>
+            <map to='#f49135'>
+              <bucket>&quot;Misc&quot;</bucket>
+            </map>
+            <map to='#f4d166'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#f6a143'>
+              <bucket>&quot;Fighting&quot;</bucket>
+            </map>
+            <map to='#f7c15d'>
+              <bucket>&quot;Action&quot;</bucket>
+            </map>
+            <map to='#f8b051'>
+              <bucket>&quot;Adventure&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Platform' />
+        <field-sort-custom-order field='Year_of_Release' />
+        <field-sort-custom-order field='Genre' />
+        <field-sort-custom-order field='Publisher' />
+        <field-sort-custom-order field='NA_Sales' />
+        <field-sort-custom-order field='EU_Sales' />
+        <field-sort-custom-order field='JP_Sales' />
+        <field-sort-custom-order field='Other_Sales' />
+        <field-sort-custom-order field='Global_Sales' />
+        <field-sort-custom-order field='Critic_Score' />
+        <field-sort-custom-order field='Calculation_2263621773576167424' />
+        <field-sort-custom-order field='Critic_Count' />
+        <field-sort-custom-order field='User_Score' />
+        <field-sort-custom-order field='User_Count' />
+        <field-sort-custom-order field='Developer' />
+        <field-sort-custom-order field='Rating' />
+        <field-sort-custom-order field='Year of Release (date)' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Video_Games_Sales_as_at_22_Dec_2016.csv' id='Video_Games_Sales_as_at_22_Dec_2016.csv_B7E63BD27B8946F5B13F79AA029967E6'>
+            <properties context=''>
+              <relation connection='textscan.1d6juyq0knmhl6116l0en0tsg5em' name='Video_Games_Sales_as_at_22_Dec_2016.csv' table='[Video_Games_Sales_as_at_22_Dec_2016#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='Platform' ordinal='1' />
+                  <column datatype='integer' name='Year_of_Release' ordinal='2' />
+                  <column datatype='string' name='Genre' ordinal='3' />
+                  <column datatype='string' name='Publisher' ordinal='4' />
+                  <column datatype='real' name='NA_Sales' ordinal='5' />
+                  <column datatype='real' name='EU_Sales' ordinal='6' />
+                  <column datatype='real' name='JP_Sales' ordinal='7' />
+                  <column datatype='real' name='Other_Sales' ordinal='8' />
+                  <column datatype='real' name='Global_Sales' ordinal='9' />
+                  <column datatype='integer' name='Critic_Score' ordinal='10' />
+                  <column datatype='integer' name='Critic_Count' ordinal='11' />
+                  <column datatype='real' name='User_Score' ordinal='12' />
+                  <column datatype='integer' name='User_Count' ordinal='13' />
+                  <column datatype='string' name='Developer' ordinal='14' />
+                  <column datatype='string' name='Rating' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='clasifier_games_df2' inline='true' name='federated.1lqchbd0qsffnx1gd8xv41vexwlw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='clasifier_games_df2' name='textscan.0bfbj1g06a9zxc1bf62ig1ql4hn3'>
+            <connection class='textscan' directory='/Users/cristina/Documents/GitHub/Final-Project-IronHack' filename='clasifier_games_df2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0bfbj1g06a9zxc1bf62ig1ql4hn3' name='clasifier_games_df2.csv' table='[clasifier_games_df2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='string' name='Platform' ordinal='3' />
+            <column datatype='real' name='Year_of_Release' ordinal='4' />
+            <column datatype='string' name='Genre' ordinal='5' />
+            <column datatype='string' name='Publisher' ordinal='6' />
+            <column datatype='real' name='NA_Sales' ordinal='7' />
+            <column datatype='real' name='EU_Sales' ordinal='8' />
+            <column datatype='real' name='JP_Sales' ordinal='9' />
+            <column datatype='real' name='Other_Sales' ordinal='10' />
+            <column datatype='real' name='Critic_Score' ordinal='11' />
+            <column datatype='real' name='Critic_Count' ordinal='12' />
+            <column datatype='real' name='User_Score' ordinal='13' />
+            <column datatype='real' name='User_Count' ordinal='14' />
+            <column datatype='string' name='Developer' ordinal='15' />
+            <column datatype='string' name='Rating' ordinal='16' />
+            <column datatype='real' name='Year_of_Sales' ordinal='17' />
+            <column datatype='integer' name='Hit' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0bfbj1g06a9zxc1bf62ig1ql4hn3' name='clasifier_games_df2.csv' table='[clasifier_games_df2#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+            <column datatype='string' name='Name' ordinal='2' />
+            <column datatype='string' name='Platform' ordinal='3' />
+            <column datatype='real' name='Year_of_Release' ordinal='4' />
+            <column datatype='string' name='Genre' ordinal='5' />
+            <column datatype='string' name='Publisher' ordinal='6' />
+            <column datatype='real' name='NA_Sales' ordinal='7' />
+            <column datatype='real' name='EU_Sales' ordinal='8' />
+            <column datatype='real' name='JP_Sales' ordinal='9' />
+            <column datatype='real' name='Other_Sales' ordinal='10' />
+            <column datatype='real' name='Critic_Score' ordinal='11' />
+            <column datatype='real' name='Critic_Count' ordinal='12' />
+            <column datatype='real' name='User_Score' ordinal='13' />
+            <column datatype='real' name='User_Count' ordinal='14' />
+            <column datatype='string' name='Developer' ordinal='15' />
+            <column datatype='string' name='Rating' ordinal='16' />
+            <column datatype='real' name='Year_of_Sales' ordinal='17' />
+            <column datatype='integer' name='Hit' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;¤&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_of_Release</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Year_of_Release]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Year_of_Release</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NA_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NA_Sales]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>NA_Sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EU_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EU_Sales]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>EU_Sales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JP_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JP_Sales]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>JP_Sales</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Sales]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Other_Sales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Critic_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Critic_Score]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Critic_Score</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Critic_Count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Critic_Count]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Critic_Count</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User_Score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[User_Score]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>User_Score</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>User_Count</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[User_Count]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>User_Count</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Developer</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Developer]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Developer</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year_of_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Year_of_Sales]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Year_of_Sales</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hit</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Hit]</local-name>
+            <parent-name>[clasifier_games_df2.csv]</parent-name>
+            <remote-alias>Hit</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Critic Count' datatype='real' name='[Critic_Count]' role='measure' type='quantitative' />
+      <column caption='Critic Score' datatype='real' name='[Critic_Score]' role='measure' type='quantitative' />
+      <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+      <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' type='quantitative' />
+      <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+      <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+      <column caption='User Count' datatype='real' name='[User_Count]' role='measure' type='quantitative' />
+      <column caption='User Score' datatype='real' name='[User_Score]' role='measure' type='quantitative' />
+      <column caption='Year of Release' datatype='real' name='[Year_of_Release]' role='dimension' type='quantitative' />
+      <column caption='Year of Sales' datatype='real' name='[Year_of_Sales]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='clasifier_games_df2.csv' datatype='table' name='[__tableau_internal_object_id__].[clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='clasifier_games_df2.csv' id='clasifier_games_df2.csv_13000BCE39D14990822DA0EAE3A75D69'>
+            <properties context=''>
+              <relation connection='textscan.0bfbj1g06a9zxc1bf62ig1ql4hn3' name='clasifier_games_df2.csv' table='[clasifier_games_df2#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='integer' name='Unnamed: 0' ordinal='1' />
+                  <column datatype='string' name='Name' ordinal='2' />
+                  <column datatype='string' name='Platform' ordinal='3' />
+                  <column datatype='real' name='Year_of_Release' ordinal='4' />
+                  <column datatype='string' name='Genre' ordinal='5' />
+                  <column datatype='string' name='Publisher' ordinal='6' />
+                  <column datatype='real' name='NA_Sales' ordinal='7' />
+                  <column datatype='real' name='EU_Sales' ordinal='8' />
+                  <column datatype='real' name='JP_Sales' ordinal='9' />
+                  <column datatype='real' name='Other_Sales' ordinal='10' />
+                  <column datatype='real' name='Critic_Score' ordinal='11' />
+                  <column datatype='real' name='Critic_Count' ordinal='12' />
+                  <column datatype='real' name='User_Score' ordinal='13' />
+                  <column datatype='real' name='User_Count' ordinal='14' />
+                  <column datatype='string' name='Developer' ordinal='15' />
+                  <column datatype='string' name='Rating' ordinal='16' />
+                  <column datatype='real' name='Year_of_Sales' ordinal='17' />
+                  <column datatype='integer' name='Hit' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='games_df' inline='true' name='federated.1o2k26d05r1kil1djiymg1e7fvpn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='clasifier_games_df2' name='textscan.1mngvrg0c7sbu716hv1sg0m8nlcv'>
+            <connection class='textscan' directory='/Users/cristina/Documents/GitHub/Final-Project-IronHack' filename='clasifier_games_df2.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Critic Score scaled 1-10' datatype='real' name='[Calculation_5867838480883994625]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Critic_Score]/10' />
+      </column>
+      <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+      <column-instance column='[Calculation_5867838480883994625]' derivation='Avg' name='[avg:Calculation_5867838480883994625:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_5867838480883994625]' derivation='User' name='[usr:Calculation_5867838480883994625:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' rowDisplayCount='100' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[avg:User_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[cnt:Name:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[usr:Calculation_5867838480883994625:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[sum:User_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[sum:Other_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[sum:JP_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[prc90:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[sum:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[sum:EU_Sales:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[avg:Calculation_5867838480883994625:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[avg:Critic_Score:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[cnt:Platform:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.1o2k26d05r1kil1djiymg1e7fvpn].[sum:NA_Sales:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph />
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Critic Score vs User Score by Genre of Games'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>Critic Score vs User Score by Genre of Games</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='critic score 10%' datatype='real' name='[Calculation_2263621773576167424]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Critic_Score]/10' />
+            </column>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='User Score' datatype='real' name='[User_Score]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_2263621773576167424]' derivation='Avg' name='[avg:Calculation_2263621773576167424:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[User_Score]' derivation='Avg' name='[avg:User_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:User_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:Calculation_2263621773576167424:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:User_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[avg:Calculation_2263621773576167424:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Genre:nk]' />
+              <groupfilter function='member' level='[none:Genre:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%null%</bucket>
+              <bucket>&quot;Action&quot;</bucket>
+              <bucket>&quot;Sports&quot;</bucket>
+              <bucket>&quot;Shooter&quot;</bucket>
+              <bucket>&quot;Role-Playing&quot;</bucket>
+              <bucket>&quot;Racing&quot;</bucket>
+              <bucket>&quot;Misc&quot;</bucket>
+              <bucket>&quot;Platform&quot;</bucket>
+              <bucket>&quot;Fighting&quot;</bucket>
+              <bucket>&quot;Simulation&quot;</bucket>
+              <bucket>&quot;Strategy&quot;</bucket>
+              <bucket>&quot;Adventure&quot;</bucket>
+              <bucket>&quot;Puzzle&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='refline'>
+            <format attr='stroke-color' id='refline0' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]' />
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[Multiple Values]</rows>
+        <cols>([federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk] / [federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{DDA09440-D8C6-4F9F-96C4-F073FEA86172}' />
+    </worksheet>
+    <worksheet name='EU Sales by Genre with Average Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='real' name='[EU_Sales]' role='measure' semantic-role='' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[sum:EU_Sales:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[sum:EU_Sales:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{D0A1CB44-CC38-478C-8CC1-78A26AAA5E8A}' />
+    </worksheet>
+    <worksheet name='Game by Developer with Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Developer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Developer]' derivation='None' name='[none:Developer:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Developer:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Developer:nk]' />
+              <groupfilter function='member' level='[none:Developer:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Developer:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.034padk1bg06s6116zjj0096i2xa].[none:Developer:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Developer:nk]</cols>
+      </table>
+      <simple-id uuid='{3117BDA0-9F09-4D4D-8ECB-D0C23F87DD7D}' />
+    </worksheet>
+    <worksheet name='Game by Genre with Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Genre:nk]' />
+              <groupfilter function='member' level='[none:Genre:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]' scope='rows' value='Distinct count of Games' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{0AD7A41C-2417-4B1C-AB9E-2DEBECC93389}' />
+    </worksheet>
+    <worksheet name='Game by Publisher with Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Publisher]' role='dimension' type='nominal' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Publisher]' derivation='None' name='[none:Publisher:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Publisher:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]' scope='rows' value='Count of Games' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#4e79a7' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Publisher:nk]</cols>
+      </table>
+      <simple-id uuid='{CD02201E-823E-4107-ACD6-0ABEA5210584}' />
+    </worksheet>
+    <worksheet name='Game by Rating and Genre'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Rating]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Rating]' derivation='None' name='[none:Rating:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]' scope='rows' value='Count of Games' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[cnt:Name:qk]</rows>
+        <cols>([federated.034padk1bg06s6116zjj0096i2xa].[none:Rating:nk] / [federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk])</cols>
+      </table>
+      <simple-id uuid='{828AE1C8-6D04-4154-A0E9-2C4637477863}' />
+    </worksheet>
+    <worksheet name='Game count by Platform with Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Platform:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]' scope='rows' value='Distinct count of Games' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Platform:nk]</cols>
+      </table>
+      <simple-id uuid='{208DDAB3-A08C-44EA-8628-E03A2F13215A}' />
+    </worksheet>
+    <worksheet name='Global Sales by Genre with average Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Global Sales' datatype='real' default-format='*000' name='[Global_Sales]' role='measure' semantic-role='' type='quantitative' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[sum:Global_Sales:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' />
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[sum:Global_Sales:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{C9052E3E-5C4F-4ECF-8492-C09550DA7E84}' />
+    </worksheet>
+    <worksheet name='JA Sales by genre with average Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' semantic-role='' type='quantitative' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[JP_Sales]' derivation='Sum' name='[sum:JP_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[sum:JP_Sales:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[sum:JP_Sales:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{DA1E82B3-8296-4F46-A063-15EBCF3F9427}' />
+    </worksheet>
+    <worksheet name='Median for Critic and User scores and count by Games'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Count' datatype='integer' name='[Critic_Count]' role='measure' type='quantitative' />
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column caption='User Count' datatype='integer' name='[User_Count]' role='measure' type='quantitative' />
+            <column caption='User Score' datatype='real' name='[User_Score]' role='measure' type='quantitative' />
+            <column-instance column='[Name]' derivation='CountD' name='[ctd:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Critic_Count]' derivation='Median' name='[med:Critic_Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Critic_Score]' derivation='Median' name='[med:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[User_Count]' derivation='Median' name='[med:User_Count:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[User_Score]' derivation='Median' name='[med:User_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Name]' derivation='None' name='[none:Name:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Name:nk]' />
+            </encodings>
+            <reference-line axis-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Count:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline0' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Count:qk]' z-order='1' />
+            <reference-line axis-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Score:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline1' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Score:qk]' z-order='2' />
+            <reference-line axis-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Count:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline2' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Count:qk]' z-order='3' />
+            <reference-line axis-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Score:qk]' boxplot-mark-exclusion='false' boxplot-whisker-type='standard' enable-instant-analytics='true' formula='average' id='refline3' label-type='automatic' probability='95' scope='per-cell' symmetric='false' value-column='[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Score:qk]' z-order='4' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Count:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Count:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.034padk1bg06s6116zjj0096i2xa].[med:User_Score:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Name:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Count:qk] + ([federated.034padk1bg06s6116zjj0096i2xa].[med:Critic_Score:qk] + ([federated.034padk1bg06s6116zjj0096i2xa].[med:User_Count:qk] + [federated.034padk1bg06s6116zjj0096i2xa].[med:User_Score:qk])))</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[ctd:Name:qk]</cols>
+      </table>
+      <simple-id uuid='{5D43E5A3-E68C-46F5-B02B-D9DAE77C6E28}' />
+    </worksheet>
+    <worksheet name='NA Sales by Genre with average Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[NA_Sales]' derivation='Sum' name='[sum:NA_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[sum:NA_Sales:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[sum:NA_Sales:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{2EDC361D-7A0C-4358-A07A-10FD9795051F}' />
+    </worksheet>
+    <worksheet name='Other Sales by Genre with average Critic Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column caption='Critic Score' datatype='integer' name='[Critic_Score]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Critic_Score]' derivation='Avg' name='[avg:Critic_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Other_Sales]' derivation='Sum' name='[sum:Other_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.034padk1bg06s6116zjj0096i2xa].[sum:Other_Sales:qk]' shelf='columns' />
+          </shelf-sorts>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[avg:Critic_Score:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[sum:Other_Sales:qk]</rows>
+        <cols>[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]</cols>
+      </table>
+      <simple-id uuid='{A1807F51-2383-458F-AD6B-67C084B7C7BF}' />
+    </worksheet>
+    <worksheet name='Sales by Genre'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Video_Games_Sales_as_at_22_Dec_2016' name='federated.034padk1bg06s6116zjj0096i2xa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.034padk1bg06s6116zjj0096i2xa'>
+            <column datatype='real' name='[EU_Sales]' role='measure' semantic-role='' type='quantitative' />
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Global Sales' datatype='real' default-format='*000' name='[Global_Sales]' role='measure' semantic-role='' type='quantitative' />
+            <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' semantic-role='' type='quantitative' />
+            <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+            <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Genre]' derivation='None' name='[none:Genre:nk]' pivot='key' type='nominal' />
+            <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[JP_Sales]' derivation='Sum' name='[sum:JP_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[NA_Sales]' derivation='Sum' name='[sum:NA_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Other_Sales]' derivation='Sum' name='[sum:Other_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Global_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:NA_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:EU_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:JP_Sales:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Other_Sales:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Global_Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:NA_Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:EU_Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:JP_Sales:qk]&quot;</bucket>
+              <bucket>&quot;[federated.034padk1bg06s6116zjj0096i2xa].[sum:Other_Sales:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Genre:nk]' />
+              <groupfilter function='member' level='[none:Genre:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Action&quot;</bucket>
+              <bucket>&quot;Sports&quot;</bucket>
+              <bucket>&quot;Shooter&quot;</bucket>
+              <bucket>&quot;Role-Playing&quot;</bucket>
+              <bucket>&quot;Platform&quot;</bucket>
+              <bucket>&quot;Misc&quot;</bucket>
+              <bucket>&quot;Racing&quot;</bucket>
+              <bucket>&quot;Fighting&quot;</bucket>
+              <bucket>&quot;Simulation&quot;</bucket>
+              <bucket>&quot;Puzzle&quot;</bucket>
+              <bucket>&quot;Adventure&quot;</bucket>
+              <bucket>&quot;Strategy&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]' />
+              <text column='[federated.034padk1bg06s6116zjj0096i2xa].[Multiple Values]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.034padk1bg06s6116zjj0096i2xa].[Multiple Values]</rows>
+        <cols>([federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk] / [federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{324AC581-5B2B-4148-BA82-3EC74BC5B3E0}' />
+    </worksheet>
+    <worksheet name='Sheet 18'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clasifier_games_df2' name='federated.1lqchbd0qsffnx1gd8xv41vexwlw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1lqchbd0qsffnx1gd8xv41vexwlw'>
+            <column datatype='string' name='[Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Platform]' role='dimension' type='nominal' />
+            <column-instance column='[Name]' derivation='Count' name='[cnt:Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Platform]' derivation='None' name='[none:Platform:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[cnt:Name:qk]' included-values='in-range' />
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[none:Platform:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[cnt:Name:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[cnt:Name:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[cnt:Name:qk]</rows>
+        <cols>[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[none:Platform:nk]</cols>
+      </table>
+      <simple-id uuid='{0A31C5EB-BE3A-45D7-9EEE-33A2915CA339}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D778B6CD-1088-4D4D-8DEC-03FC19EC9CFE}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='72'>
+    <window class='worksheet' name='Critic Score vs User Score by Genre of Games'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5DA2FAAE-2366-4865-BE54-59E534BD9EBC}' />
+    </window>
+    <window class='worksheet' name='Global Sales by Genre with average Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5BF0DECB-6BA8-43B9-AE5A-370CF9D36E22}' />
+    </window>
+    <window class='worksheet' name='Sales by Genre'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.034padk1bg06s6116zjj0096i2xa].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BE9A6016-4B49-4648-B625-CA467B5824BB}' />
+    </window>
+    <window class='worksheet' name='Game count by Platform with Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7EE17997-49D3-462A-B157-0D1CF10EB01E}' />
+    </window>
+    <window class='worksheet' name='Game by Publisher with Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{59BFCCE9-3905-4638-9DAB-AE16C6D9C9A9}' />
+    </window>
+    <window class='worksheet' name='Game by Developer with Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{73DB7200-DE6D-4AAE-B081-33EAA4A2FFF1}' />
+    </window>
+    <window class='worksheet' name='Game by Genre with Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{65241955-2484-4023-9238-C76A7185961F}' />
+    </window>
+    <window class='worksheet' name='Game by Rating and Genre'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.034padk1bg06s6116zjj0096i2xa].[none:Genre:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{666F8108-6B24-45C9-B047-5BBF7B05918F}' />
+    </window>
+    <window class='worksheet' name='EU Sales by Genre with Average Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{71EE9CC5-7137-4A07-BAA1-34DFF81AE599}' />
+    </window>
+    <window class='worksheet' name='NA Sales by Genre with average Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2ABA95CF-9B68-421B-A5C2-36E03B94BB65}' />
+    </window>
+    <window class='worksheet' name='JA Sales by genre with average Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C829438E-50C6-4979-95EA-E84524C8BE23}' />
+    </window>
+    <window class='worksheet' name='Other Sales by Genre with average Critic Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{EA71CB91-BD32-4A3E-99E1-901C81C7CD77}' />
+    </window>
+    <window class='worksheet' name='Median for Critic and User scores and count by Games'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7382ECE0-1AC0-4369-8946-76D32A51E21E}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{D90EC421-B154-4C0A-AA39-624417EE2F10}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 18'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1lqchbd0qsffnx1gd8xv41vexwlw].[cnt:Name:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E5F99EF2-1D88-4F74-A58A-EE47DF988FE2}' />
+    </window>
+  </windows>
+</workbook>
