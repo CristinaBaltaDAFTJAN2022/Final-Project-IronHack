@@ -26,7 +26,9 @@ All data exploration and analysis
 
 To analysis the strong corelation between features and data
 
-I will try to bild a Modelling with Linear Regresion for EU Sales from the perspective of the users and critics.
+I will try to bild a Modelling with Linear Regresion for NA_Sales from the perspective of the users and critics. 
+
+I bild a modelling which predicts games from 2016 that can still become hits, or not.  
 
 Split data ...
 
@@ -50,8 +52,11 @@ http://www.vgchartz.com/gamedb/
 
 http://chrisalbon.com/python/beautiful_soup_scrape_table.html
 
+https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings/code?datasetId=576
+
 https://en.wikipedia.org/wiki/List_of_years_in_games
 
 Google.com
+https://en.wikipedia.org/wiki/Titanfall_2#Sales
 
 Motivated by Gregory Smith's web scrape of VGChartz Video Games Sales, this data set simply extends the number of variables with another web scrape from Metacritic.
